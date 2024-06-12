@@ -13,6 +13,7 @@ class MealScreenDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        forceMaterialTransparency: true,
         title: Text(meal.title),
       ),
       body: SingleChildScrollView(
